@@ -114,24 +114,45 @@ Animated layers peeled away at each relay until the packet reaches the website.
 
 ## Getting Started
 
+**Prerequisites:** [Node.js](https://nodejs.org/) 18+ and npm.
+
+### 1. Clone the repository
+
 ```bash
-# Install dependencies
+git clone https://github.com/Akash-2615/Torscope-.git
+cd Torscope-
+```
+
+> If you cloned via SSH instead: `git clone git@github.com:Akash-2615/Torscope-.git`
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
 
-# Start dev server
+### 3. Run the dev server
+
+```bash
 npm run dev
+```
 
-# Production build
+Then open the printed URL in your browser (default **http://localhost:5173**).
+
+### Other commands
+
+```bash
+# Type-check + production build (outputs to dist/)
 npm run build
 
-# Preview production build
+# Preview the production build locally
 npm run preview
 
-# Lint
+# Lint the codebase
 npm run lint
 ```
 
-Open the printed URL (default `http://localhost:5173`).
+> **Stop the dev server:** press `Ctrl + C` in the terminal running it.
 
 ---
 
